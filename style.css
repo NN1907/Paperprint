@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #F5F5F5;
+    color: #333333;
+}
+.header {
+    background-color: #1E3A5F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.title { 
+    margin: 0;
+    color: #c54c3d;
+}
+.slogan {
+    font-size: 14px;
+    font-style: normal;
+}
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav li {
+    display: inline;
+    margin: 0 15px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video-box {
+    text-align: center;
+}
+.slideshow-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+.slides {
+    display: none;
+    width: 100%;
+    border-radius: 8px;
+}
+.text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+.left {
+    left: 10px;
+}
+.right {
+    right: 10px;
+}
+.emoji {
+    font-size: 24px;
+}
+.footer {
+    background-color: #1E3A5F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em;
+}
+.filter-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.filter-container select {
+    margin: 0 10px;
+    padding: 5px;
+}
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+.product-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.product-description {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+.product-list {
+    padding: 20px;
+}
+.product-item {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.button {
+    background-color: #1E3A5F;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.button:hover {
+    background-color: #D4AF37;
+}

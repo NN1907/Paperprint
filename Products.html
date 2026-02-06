@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper-Print</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo" style="float: left; margin-right: 20px;">
+            <img src="./Images/logo.png" alt="PaperPrint Logo" style="height: 50px; border-radius: 30px;">
+        </div>
+        <h1 class="title">Paper-Print</h1>
+        <p class="slogan">Precision, Quality, and Creativity in Every Print</p>
+        <nav class="nav">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="roducts.html">Products</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Customization.html">Customization</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div class="dropdown">
+                <button class="dropbtn emoji">🌍</button>
+                <div class="dropdown-content">
+ <h6 class="dropdown-header">Select Country</h6>
+                    <a href="#">USA</a>
+                    <a href="#">UK</a>
+                    <a href="#">France</a>
+                    <a href="#">Spain</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn emoji">⚙️</button>
+                <div class="dropdown-content">
+                    <h6 class="dropdown-header">Select Language</h6>
+                    <a href="#">English</a>
+                    <a href="#">Spanish</a>
+                    <a href="#">French</a>
+                    <a href="#">German</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn emoji">💬</button>
+                <div class="dropdown-content">
+                    <h6 class="dropdown-header">Chat Support</h6>
+                    <a href="#">Live Chat</a>
+                    <a href="#">Email Support</a>
+                    <a href="#">FAQs</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="filter-container">
+        <h2>Filter Products</h2>
+        <select id="categoryFilter">
+   <option value="all">All Products</option>
+            <option value="clothes">Clothes</option>
+        </select>
+        <button id="filterButton" class="button">Apply Filter</button>
+    </div>
+    <div class="main-content" id="productList">
+        <div class="product-card" data-category="clothes">
+            <img src="./Images/sweater.jpg" alt="Sweater">
+            <h3 class="product-title">Cozy Sweater</h3>
+            <p class="product-description">Warm and stylish sweater for winter.</p>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="product-card" data-category="clothes">
+            <img src="./Images/polo.jpg" alt="Polo Shirt">
+            <h3 class="product-title">Classic Polo</h3>
+            <p class="product-description">Comfortable polo shirt for casual outings.</p>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="product-card" data-category="clothes">
+            <img src="./Images/cap.jpg" alt="Cap">
+            <h3 class="product-title">Stylish Cap</h3>
+            <p class="product-description">Perfect cap for sunny days.</p>
+            <button class="button">Add to Cart</button>
+        </div>
+    </div>
+     <footer class="footer">
+        <p>Contact Us: info@paperprint.com | Phone: (123) 456-7890 | Address: 123 Print St, Print City, PC 12345</p>
+        <p>
+            <a href="Index.html" style="color: white;">Home</a> | 
+            <a href="Products.html" style="color: white;">Products</a> | 
+            <a href="Services.html" style="color: white;">Services</a> | 
+            <a href="ustomization.html" style="color: white;">Customization</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
